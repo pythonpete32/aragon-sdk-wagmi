@@ -3,7 +3,7 @@ import { Connected } from "../components/Connected";
 import { DAOs } from "../components/DAOs";
 import { DepositDao } from "../components/DepositDao";
 
-export function Page() {
+const Page: React.FC = () => {
   return (
     <>
       <h1>Aragon SDK + WAGMI</h1>
@@ -23,6 +23,6 @@ export function Page() {
       </Connected>
     </>
   );
-}
+};
 
 export default Page;
