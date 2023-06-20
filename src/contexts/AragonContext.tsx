@@ -9,8 +9,8 @@ import {
 import { createContext, useContext, useEffect, useState } from "react";
 import { useNetwork } from "wagmi";
 import { Signer } from "ethers";
-import { mumbaiParams, polygonParams } from "../../constants";
-import useWindowSigner from "../../hooks/useWindowSigner";
+import useWindowSigner from "../hooks/useWindowSigner";
+import { polygonParams, mumbaiParams } from "../constants";
 
 export interface AragonSDKContextValue {
   context?: Context;
